@@ -159,7 +159,7 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <mavenExecutorId>forked-path</mavenxExecutorId>
+                            <mavenExecutorId>forked-path</mavenExecutorId>
                         </configuration>
                     </plugin>
                 </plugins>
