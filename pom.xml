@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>solutions.linked</groupId>
     <artifactId>parent</artifactId>
-    <version>2-SNAPSHOT</version>
+    <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Linkend Solutions Parent</name>
     <description>The Linkend Solutions Maven Parent POM.</description>
