@@ -9,15 +9,15 @@
     <description>The Linkend Solutions Maven Parent POM.</description>
     <url>http://linked.solutions/</url>
     <scm>
-       <url>https://github.com/linked-solutions/maven-parent</url>
-       <connection>scm:git:git://github.com/linked-solutions/maven-parent.git</connection>
-       <developerConnection>scm:git:git@github.com:linked-solutions/maven-parent.git</developerConnection>
-      <tag>HEAD</tag>
-   </scm>
-   <prerequisites>
-      <maven>3.0</maven>
-   </prerequisites>
-   <distributionManagement>
+        <url>https://github.com/linked-solutions/maven-parent</url>
+        <connection>scm:git:git://github.com/linked-solutions/maven-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:linked-solutions/maven-parent.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <prerequisites>
+        <maven>3.0</maven>
+    </prerequisites>
+    <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
             <name>Sonatype Nexus Snapshots</name>
@@ -134,18 +134,18 @@
             <id>release</id>
             <build>
                 <plugins>
-                  <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-javadoc-plugin</artifactId>
-                    <executions>
-                      <execution>
-                        <id>attach-javadocs</id>
-                        <goals>
-                          <goal>jar</goal>
-                        </goals>
-                      </execution>
-                    </executions>
-                  </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>attach-javadocs</id>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
